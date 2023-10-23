@@ -8,6 +8,6 @@ st.set_page_config('kiq-Ecop06',
 
 st.title('Pagina alfa Ecop06')
 
-esports = pd.read_csv('https://github.com/MainakRepositor/Datasets/raw/master/GeneralEsportData.csv')
+esports = pd.read_csv('https://github.com/MainakRepositor/Datasets/raw/master/GeneralEsportData.csv', enconding='latin-1')
 
 st.dataframe(esports)
